@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-color: rgb(255, 181, 42); */
+  background-color: #e3f2fd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 22px;
+}
+.searchBar input {
+  width: 400px;
+  padding: 9px;
+  font-size: 22px;
+  border: none;
+  background-color: #e7e7e7;
+  border-radius: 6px;
+}
+.searchBar button {
+  width: 90px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 44px;
+}
+.meals img {
+  width: 100%;
+  height: 270px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.mealImg {
+  width: 280px;
+  height: 380px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 11px;
+}
+.mealImg p {
+  font-weight: 600;
+}
+.mealImg button {
+  width: 120px;
+  background-color: #64b5f6;
+
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 21px;
+  padding: 7px;
+  cursor: pointer;
+}
+.mealImg button:hover {
+  background-color: #2196f3;
+}
+.mealInfo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 11px;
+}
+.mealInfo {
+  /* width: 90%; */
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  background-color: #64b5f6;
+  padding: 32px;
+}
+.mealInfo button {
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  font-size: 19px;
+  background-color: #2196f3;
+  color: #212121;
+}
+.mealInfo .info {
+  margin-top: -112px;
+}
+.msg {
+  text-align: center;
+}
+.head {
+  text-align: center;
+}
+
+/* HEADER */
+
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  /* background-color: #ff6f61; Warm color for food theme */
+  background-color: #2196f3;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  display: flex;
+  gap: 10px;
+}
+/* Logo */
+.logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive; /* Fun font for food theme */
+}
+
+/* Navigation Menu */
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+  color: #ffcc00; /* Highlight color on hover */
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #e6b800; /* Darker shade on hover */
+}
+
+/* title */
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #64b5f6;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* SEARCH BY LETTER */
+
+.alphabet-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.alphabet-buttons .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.alphabet-buttons .letter-button {
+  background-color: #2196f3;
+  color: #212121;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alphabet-buttons .letter-button:hover {
+  background-color: #e65c50;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2c3e50; /* Dark background */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #34495e;
+  margin-top: auto; /* Push footer to the bottom */
+  color: #ecf0f1; /* Light text color */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between; /* Space out logo and links */
+  align-items: center; /* Vertically center content */
+  gap: 20px; /* Add gap between logo and links */
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 40px; /* Adjust logo size */
+  height: 40px;
+}
+
+.app-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left; /* Align links to the left */
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+  color: #bdc3c7; /* Light gray text */
+}
+
+.footer-link {
+  color: #bdc3c7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ecf0f1; /* Light text color on hover */
+  text-decoration: underline;
+}
