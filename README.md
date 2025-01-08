@@ -8,13 +8,11 @@ Search by First Letter: Find recipes that start with a specific letter (A-Z).
 
 Random Recipes: Discover random recipes for inspiration.
 
-Recipe Details: View detailed instructions, ingredients, and images for each recipe.
+Recipe Details: View detailed instructions, and images for each recipe.
 
 Categories: Browse recipes by categories (e.g., Breakfast, Dessert, Vegan).
 
 Favorites: Save your favorite recipes for easy access later.
-
-Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
 
 Technologies Used 🛠️
 Frontend: React, React Router, Material-UI
@@ -26,24 +24,6 @@ State Management: React Hooks (useState, useEffect)
 Styling: CSS, Material-UI
 
 Package Manager: npm
-
-## Screenshots
-
-### Categories
-
-![Categories](./assets/recipe-app-screen/categories.png)
-
-### Favorite Recipes
-
-![Favorite Recipes](./assets/recipe-app-screen/favoriteRecipes.png)
-
-### Random Meals
-
-![Random Meals](./assets/recipe-app-screen/randomMeals.png)
-
-### Search by First Letter
-
-![Search by First Letter](./assets/recipe-app-screen/searchByFirstLetter.png)
 
 Acknowledgments 🙏
 TheMealDB for providing the recipe data.
