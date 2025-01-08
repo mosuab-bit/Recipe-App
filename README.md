@@ -27,15 +27,21 @@ Styling: CSS, Material-UI
 
 Package Manager: npm
 
-Screenshots 📸
-Home Page
-Home Page
+## Screenshots 📸
 
-Recipe Details
-Recipe Details
+### Categories
+![Categories](./assets/recipe%20app%20screen/categories.png)
 
-Favorites
-Favorites
+### Favorite Recipes
+![Favorite Recipes](./assets/recipe%20app%20screen/favoriteRecipes.png)
+
+### Random Meals
+![Random Meals](./assets/recipe%20app%20screen/randomMeals.png)
+
+### Search by First Letter
+![Search by First Letter](./assets/recipe%20app%20screen/searchByFirstLetter.png)
+
+
 
 
 Acknowledgments 🙏
