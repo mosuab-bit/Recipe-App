@@ -2,7 +2,7 @@ Recipe App 🍳
 Welcome to Recipe App, a web application that helps you discover and explore delicious recipes from around the world! Whether you're looking for a quick meal idea or a detailed recipe, this app has got you covered.
 
 Features 🌟
-Search Recipes: Search for recipes by name 
+Search Recipes: Search for recipes by name
 
 Search by First Letter: Find recipes that start with a specific letter (A-Z).
 
@@ -27,22 +27,23 @@ Styling: CSS, Material-UI
 
 Package Manager: npm
 
-## Screenshots 📸
+## Screenshots
 
 ### Categories
-![Categories](./assets/recipe%20app%20screen/categories.png)
+
+![Categories](./assets/recipe-app-screen/categories.png)
 
 ### Favorite Recipes
-![Favorite Recipes](./assets/recipe%20app%20screen/favoriteRecipes.png)
+
+![Favorite Recipes](./assets/recipe-app-screen/favoriteRecipes.png)
 
 ### Random Meals
-![Random Meals](./assets/recipe%20app%20screen/randomMeals.png)
+
+![Random Meals](./assets/recipe-app-screen/randomMeals.png)
 
 ### Search by First Letter
-![Search by First Letter](./assets/recipe%20app%20screen/searchByFirstLetter.png)
 
-
-
+![Search by First Letter](./assets/recipe-app-screen/searchByFirstLetter.png)
 
 Acknowledgments 🙏
 TheMealDB for providing the recipe data.
