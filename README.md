@@ -27,11 +27,19 @@ Styling: CSS, Material-UI
 
 Package Manager: npm
 
-Screenshots 📸
-![Image 1](./assets/categories.png)
-![Image 2](./assets/favoriteRecipes.png)
-![Image 3](./assets/randomMeals.png)
-![Image 4](./assets/searchByFirstLetter.png)
+## Screenshots 📸
+
+### Categories
+![Categories](./assets/recipe%20app%20screen/categories.png)
+
+### Favorite Recipes
+![Favorite Recipes](./assets/recipe%20app%20screen/favoriteRecipes.png)
+
+### Random Meals
+![Random Meals](./assets/recipe%20app%20screen/randomMeals.png)
+
+### Search by First Letter
+![Search by First Letter](./assets/recipe%20app%20screen/searchByFirstLetter.png)
 
 
 
