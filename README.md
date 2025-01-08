@@ -28,14 +28,12 @@ Styling: CSS, Material-UI
 Package Manager: npm
 
 Screenshots 📸
-Home Page
-Home Page
+![Image 1](./assets/categories.png)
+![Image 2](./assets/favoriteRecipes.png)
+![Image 3](./assets/randomMeals.png)
+![Image 4](./assets/searchByFirstLetter.png)
 
-Recipe Details
-Recipe Details
 
-Favorites
-Favorites
 
 
 Acknowledgments 🙏
